@@ -117,3 +117,73 @@ Young native speaker, foreign learners, and heritage learners suffers from lack 
 - Collaborators: someone who works on shared tasks with students or working professionals
 
 Students and working professionals suffers from a variety of consequences if they miss deadlines. Friends and family suffer from having less time with, or having to deal with a stressed friend or family member. Collaborator suffer of inconvenience of their collaborator not managing their time well and affecting group productivity.
+
+## Evidence
+
+**Zhuyin Typing**
+
+- [Learn Scripts Zhuyin](https://learn-scripts.github.io/zhuyin.html) Flashcard-style practice for recognizing what each Zhuyin symbols correspond to in Pinyin. Only relevant for learners who come from a Pinyin background. Useful for switching from Pinyin to Zhuyin, but does not help with actual Zhuyin typing.
+
+- [JSZhuyin](https://jszhuyin.timdream.org/learn/) Introduction to typing Zhuyin on a qwerty keyboard. However, only teaches you to type the one phrase "Hello, world!".
+
+- [What is Bopomofo Youtube Video](https://www.youtube.com/watch?v=AKH5IHhbUUA) Zhuyin usage explanation, mentions certain differences between Pinyin and Zhuyin conversion (Pinyin to Zhuyin is not 1-to-1 conversion). Relevant for complete beginners (non-Taiwanese).
+
+- [Zhuyin Practice App](https://play.google.com/store/apps/details?id=com.turtle8.banana01&hl=en_US) ([demo link](https://youtu.be/t4rZHKVTZpg)) Practice typing Zhuyin for different words. However, no long form typing (i.e. sentences), only single words. Has a couple other functionalities like audio pronounciation and Chinese character to Zhuyin conversion.
+
+- [Chinese Typing Practice](https://readtypechinese.com/) Shows sentences and have users type them. Input-method agnostic, so tells users where the characters typed are right or wrong, but no feedback on how to type it correctly (in term of which key strokes).
+
+- [Taiwan Forum on Zhuyin Practicing Software](https://tw.forumosa.com/t/any-typing-software-website-to-practice-zhuyin-fuhao/69998/19) Discussion forum shows there are learners looking to practice Zhuyin, but no mainstream software exists. Also, word that some software exists in Taiwan but is passed down by word of mouth. (Excerpts:
+
+  "Yes, there is, it exists, but I haven’t seen it years. I remember there was a copy floating around at MTC that the teachers were passing around."
+
+  "Yes there is. Go to the nearest public grade school in your place with a friend and ask if they have Chinese Language class for foreign spouses. As part of the language class curriculum, there is one class for typing chinese language. They have a small adobe flash program that can improve how you type zhuyin fuhao.")
+
+- [typing.tw](https://typing.tw/) Typing test website that tells you your typing speed. Made for traditional Chinese characters. Input agnostic. Has time limit. Good for users to practice speed after they learn how to type correctly.
+
+- [Another typing contest site](https://contest.hlc.edu.tw/typing/content_bpmf.asp?lang=1) Has a preset list of phrases for typing practice, and shows the Zhuyin symbols for each word. Site all in Chinese, hard for foreign learners to navigate.
+
+- [10FastFingers](https://10fastfingers.com/typing-test/traditional-chinese) Typing speed practice with randomized words. No Zhuyin symbols for beginners.
+
+- [Article on learning Zhuyin](https://medium.com/@ians/learning-zhuyin-in-3-days-c598641122e2) Article mentions that the basics of Zhuyin is easy to learn in a couple days and start typing, however it will take a long time to be able to type it fast.
+
+**Character Recognition**
+
+- [Wikipedia: Easily confused Chinese characters](https://en.wiktionary.org/wiki/Appendix:Easily_confused_Chinese_characters) List of different characters that look similar explains what the difference is.
+
+- [NiHaoMa Mandarin](https://nihaoma-mandarin.com/pedagogy-corner/similar-chinese-characters/) Article explaining some similar characters and also ways to remember them.
+
+- [Variant Chinese Characters](https://en.wikipedia.org/wiki/Variant_Chinese_characters) Brief Explanation on Chinese characters that are slightly different, but are still the same word with the same meaning.
+
+- [Reddit Discussion](https://www.reddit.com/r/ChineseLanguage/comments/sk283g/similar_chinese_characters_for_beginners/) Chinese learners discussing similar characters that they often confuse.
+
+- [Characters List](https://ltl-beijing.com/similar-chinese-characters/) A long (but not exhaustive) list of chinese characters that look similar and a brief explanation. Shows how many small differences in characters Chinese learners would need to pay attention to.
+
+- [Chinese Radicals - source 1](https://www.archchinese.com/arch_chinese_radicals.html) (explanation below)
+
+- [Chinese Radicals - source 2](https://www.berlitz.com/blog/chinese-radicals-list) (explanation below)
+
+- The above two lists the 214 radicals (parts that make up a character) in Chinese. A character can contain one or more radicals. Different characters can contain the same radicals but in different order. Similar characters are often characters that differ by one radical or contain similar-looking radicals.
+
+- [Wikipedia - Chinese characters](https://en.wikipedia.org/wiki/Chinese_characters) Overview of Chinese characters. There are over 100,000 Chinese characters, combine this data with the 214 radicals above, this explains why certain characters may look similar or evan use almost all the same radicals.
+
+- [Reddit discussion](https://www.reddit.com/r/ChineseLanguage/comments/f2je0u/they_are_incredibly_similar/) Discussion shows that chinese learners often mistake similar characters for each other.
+
+**Lack of task categorization**
+
+- [Github Projects Board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/customizing-the-board-layout) Comparable. However does not have auto-moving of tasks with upcoming deadlines
+
+- [Microsoft Todo](https://www.microsoft.com/en-us/microsoft-365/microsoft-to-do-list-app) Comparable. Good UI, easy to use, simple to move tasks around to different lists, add tasks, delete tasks, set deadlines and reminders. However, can only classify task as done or not done.
+
+- [Survey of how much time is spent on maintaining task list](https://www.reddit.com/r/productivity/comments/obk0ie/on_average_how_much_time_do_you_spend_each_day/) About 1/3 of respondees spent over 15 minutes to maintain their task list, with some spending as much as an hour. Proper task management tools can help reduce time spent on maintaining task list.
+
+- [Article of how much time we spend during a work day](https://www.runn.io/blog/time-management-statistics) In an 8-hour workday, half of those hours are productive. Proper task management can increase productivity.
+
+- [Eisenhower Matrix](https://asana.com/resources/eisenhower-matrix) Eisenhower matrix is a method of task management that organize and prioritize tasks by urgency and importance. Mentions how categorizing tasks can improve efficiency and productivity.
+
+- [Why is task management important?](https://www.highgear.com/blog/why-is-task-management-so-important/) List the many benefits of task management.
+
+- [Increasing Student Success Through Effective Task Management](https://teaching-resources.delta.ncsu.edu/increasing-student-success-through-effective-task-management/) Provides several examples of task management softwares. Mentions how effective task management can improve student success.
+
+- [Productive Day](https://productiveday.com/6-reasons-why-categories-are-disastrous-for-managing-tasks/) Mentions the importance of having all tasks in ONE location.
+
+- [The Categorization of Time and Its Impact on Task Initiation](https://academic.oup.com/jcr/article-abstract/41/3/810/2907541?redirectedFrom=fulltext) Research article that explores the effect of the categorization of time on task initiation. "When the deadline of a task is categorized in a like-the-present category, it triggers the default implemental mind-set and hence results in a greater likelihood of task initiation."
