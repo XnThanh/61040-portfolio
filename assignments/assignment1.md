@@ -73,3 +73,47 @@
 3. Organization: Sometimes, I would like to look at what I did on a particular date, sometimes years back. Other times, I would like to see how I programmed a particular exercise, or a particular portion of my training cycle. This would require filtering by dates or exercises, which none of my current tracking methods have a good/visually appealing way of doing.
 
    **[not selected]** Insufficient differentiation. Probably all workout trackers are ordered by date, so a date filter won't save much more time than scrolling back. Many workout trackers have a search function (Ctrl+F in google sheets for a particular exercise might not be the best UI for filtering exercise, but it does the job).
+
+## Stakeholders
+
+**Zhuyin Typing**
+
+- Taiwanese children: elementary and middle school-aged children in Taiwan who are learning to type.
+
+- Foreign learners: Mandarin learners (foreigners or non-advanced heritage speakers) who want to learn Zhuyin for typing Chinese. They often have issues with remembering tones.
+
+- Chinese learners: native or advanced heritage Chinese speakers who are learning Zhuyin, either because they grew up knowing another input system such as Pinyin, or never learned to write/type. They don't have problems with remembering tones.
+
+- Teachers: teachers of the above three stakeholders
+
+- Taiwanese: native Taiwanese or those of Taiwanese heritage
+
+Taiwanese children, foreign learners, Chinese learners all suffer from lack of Zhuyin typing practice. Teachers may have interest in providing resources that can help their students learn and practice in their own time. Taiwanese may have interest in spreading their culture and language as Zhuyin is used solely in Taiwan and by Taiwanese outside Taiwan; besides writing traditional characters, Zhuyin plays a role in Taiwanese pop culture, as many slangs, puns, trends, and references to Taiwanese Hokkien (another language spoken in Taiwan) stems from Zhuyin.
+
+**Character Recognition**
+
+- Young native-speakers: elementary and middle school-aged children in Chinese-speaking countries who are still learning chinese vocabulary and new characters.
+
+- Foreign learners: Mandarin learners who are learning the pronounciation, writing, and meaning of a character all at the same time.
+
+- Heritage learners: those of Chinese heritage who can speak but not write
+
+- Native speaker: native Mandarin speakers
+
+- App developers: someone who develops apps or build learning tools
+
+- Curriculum designers: someone who designs educational curriculums
+
+Young native speaker, foreign learners, and heritage learners suffers from lack of consolidated resource that contains all similar-looking characters and being able to drill them. Native speakers suffers from learners making mistakes when reading, leading to misunderstanding or needing to correct learner. App developers may have interest in adding learning features to their platform. Curriculum designers may have interest in improving similar-character recognition in students.
+
+**Lack of task categorization**
+
+- Students: someone who needs to manage homework, campus jobs, meetings, clubs, and personal deadlines
+
+- Working professionals: someone who needs to manage deadlines of projects and work
+
+- Friends and family: someone who interacts with students and working professionals socially and personally
+
+- Collaborators: someone who works on shared tasks with students or working professionals
+
+Students and working professionals suffers from a variety of consequences if they miss deadlines. Friends and family suffer from having less time with, or having to deal with a stressed friend or family member. Collaborator suffer of inconvenience of their collaborator not managing their time well and affecting group productivity.
