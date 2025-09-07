@@ -187,3 +187,29 @@ Students and working professionals suffers from a variety of consequences if the
 - [Productive Day](https://productiveday.com/6-reasons-why-categories-are-disastrous-for-managing-tasks/) Mentions the importance of having all tasks in ONE location.
 
 - [The Categorization of Time and Its Impact on Task Initiation](https://academic.oup.com/jcr/article-abstract/41/3/810/2907541?redirectedFrom=fulltext) Research article that explores the effect of the categorization of time on task initiation. "When the deadline of a task is categorized in a like-the-present category, it triggers the default implemental mind-set and hence results in a greater likelihood of task initiation."
+
+## Feature
+
+**Zhuyin Typing**
+
+- Level selection: User can select levels (beginner, intermediate, advanced), so that the characters that display on the sceen can more closely match their language level.
+
+- Statistics: Allows users to login to save their progress and statistics. Perhaps displays user progress graphically. This lets the user see their progress over time and how their typing may have improved.
+
+- Language Switching: Option for the site/app to be in English or Chinese, catering to both (beginner) foreign learners and native speakers.
+
+**Character Recognition**
+
+- Comprehensive list of characters that are similar: Provides a comprehensive list that cross checks all characters against each other and list out ones that look similar. Users can use this list to practice their character recognition.
+
+- Flashcard-style practice: Allow users to practice differentiating similar characters through flashcard practicing.
+
+- User profile: Ask user to provide basic info about their Chinese language ability in order to provide suitable practice that corresponds to user ability.
+
+**Lack of task categorization**
+
+- Drag and drop: Allows users to drag and drop to move tasks around. This makes moving tasks easier and faster.
+
+- Custom categories: Users can define their own categories for separating their tasks. Allows users to categorize their tasks in a way that works best for them.
+
+- Deadline reminders: Users can set reminders for tasks with deadline, and specify how far before the deadline to send a reminder. This helps user with deadline management.
