@@ -1,5 +1,13 @@
 # Assignment 1
 
+### Quicklinks
+
+- [Domains](#domains)
+- [Problems](#problems)
+- [Stakeholders](#stakeholders)
+- [Evidence](#evidence)
+- [Feature](#feature)
+
 ## Domains
 
 1. **Learning Mandarin [selected]:** I love to study foreign languages and I studied Mandarin for roughly 6 years, including 3 trips to Taiwan and roughly a total of 1 year living in Taiwan for the purpose of studying Mandarin. I studied Madarin in all four aspects - listening, speaking, reading, and writing. I started as a complete beginner, with no previous background or exposure to the language. I took classes in high school and throughout college, which taught in Simplified characters and Beijing "standard" accent _(quotations because "standard" is rather subjective)_. In Taiwan, I learned both Simplified and Traditional characters, and while class in Taiwan also speaks the "standard" accent, outside of class, I got lots of exposure to Taiwanese accent and began adapting it.
@@ -21,6 +29,8 @@
 9. **Budgeting:** I travel a lot and always keep track of my spending.
 
 10. **Reading:** I like to read personal development books and always looking for new (exciting) books to read. Though I also have a habit addings books to my reading list way faster than I remove them from my reading list via reading them.
+
+[(jump to top)](#assignment-1)
 
 ## Problems
 
@@ -74,6 +84,8 @@
 
    **[not selected]** Insufficient differentiation. Probably all workout trackers are ordered by date, so a date filter won't save much more time than scrolling back. Many workout trackers have a search function (Ctrl+F in google sheets for a particular exercise might not be the best UI for filtering exercise, but it does the job).
 
+[(jump to top)](#assignment-1)
+
 ## Stakeholders
 
 **Zhuyin Typing**
@@ -82,13 +94,13 @@
 
 - Foreign learners: Mandarin learners (foreigners or non-advanced heritage speakers) who want to learn Zhuyin for typing Chinese. They often have issues with remembering tones.
 
-- Chinese learners: native or advanced heritage Chinese speakers who are learning Zhuyin, either because they grew up knowing another input system such as Pinyin, or never learned to write/type. They don't have problems with remembering tones.
+- Heritage learners: native or advanced heritage Chinese speakers who are learning Zhuyin, either because they grew up knowing another input system such as Pinyin, or never learned to write/type. They don't have problems with remembering tones.
 
 - Teachers: teachers of the above three stakeholders
 
 - Taiwanese: native Taiwanese or those of Taiwanese heritage
 
-Taiwanese children, foreign learners, Chinese learners all suffer from lack of Zhuyin typing practice. Teachers may have interest in providing resources that can help their students learn and practice in their own time. Taiwanese may have interest in spreading their culture and language as Zhuyin is used solely in Taiwan and by Taiwanese outside Taiwan; besides writing traditional characters, Zhuyin plays a role in Taiwanese pop culture, as many slangs, puns, trends, and references to Taiwanese Hokkien (another language spoken in Taiwan) stems from Zhuyin.
+Taiwanese children, foreign learners, heritage learners all suffer from lack of Zhuyin typing practice. Teachers may have interest in providing resources that can help their students learn and practice in their own time. Taiwanese may have interest in spreading their culture and language as Zhuyin is used solely in Taiwan and by Taiwanese outside Taiwan; besides writing traditional characters, Zhuyin plays a role in Taiwanese pop culture, as many slangs, puns, and trends, along with some references to Taiwanese Hokkien (another language spoken in Taiwan) stems from Zhuyin.
 
 **Character Recognition**
 
@@ -116,7 +128,9 @@ Young native speaker, foreign learners, and heritage learners suffers from lack 
 
 - Collaborators: someone who works on shared tasks with students or working professionals
 
-Students and working professionals suffers from a variety of consequences if they miss deadlines. Friends and family suffer from having less time with, or having to deal with a stressed friend or family member. Collaborator suffer of inconvenience of their collaborator not managing their time well and affecting group productivity.
+Students and working professionals suffers from a variety of consequences if they miss deadlines. Friends and family suffer from having less time with, or having to deal with a stressed friend or family member. Collaborator suffer from inconvenience of their collaborator not managing their time well and affecting group productivity.
+
+[(jump to top)](#assignment-1)
 
 ## Evidence
 
@@ -126,11 +140,11 @@ Students and working professionals suffers from a variety of consequences if the
 
 - [JSZhuyin](https://jszhuyin.timdream.org/learn/) Introduction to typing Zhuyin on a qwerty keyboard. However, only teaches you to type the one phrase "Hello, world!".
 
-- [What is Bopomofo Youtube Video](https://www.youtube.com/watch?v=AKH5IHhbUUA) Zhuyin usage explanation, mentions certain differences between Pinyin and Zhuyin conversion (Pinyin to Zhuyin is not 1-to-1 conversion). Relevant for complete beginners (non-Taiwanese).
+- [What is Bopomofo Youtube Video](https://www.youtube.com/watch?v=AKH5IHhbUUA) Zhuyin usage explanation, mentions certain differences between Pinyin and Zhuyin conversion (because Pinyin to Zhuyin is not 1-to-1 conversion). Relevant for complete beginners (non-Taiwanese).
 
 - [Zhuyin Practice App](https://play.google.com/store/apps/details?id=com.turtle8.banana01&hl=en_US) ([demo link](https://youtu.be/t4rZHKVTZpg)) Practice typing Zhuyin for different words. However, no long form typing (i.e. sentences), only single words. Has a couple other functionalities like audio pronounciation and Chinese character to Zhuyin conversion.
 
-- [Chinese Typing Practice](https://readtypechinese.com/) Shows sentences and have users type them. Input-method agnostic, so tells users where the characters typed are right or wrong, but no feedback on how to type it correctly (in term of which key strokes).
+- [Chinese Typing Practice](https://readtypechinese.com/) Shows sentences and have users type them. Input-method agnostic, so tells users whether the characters typed are right or wrong, but no feedback on how to type it correctly (in term of which key strokes).
 
 - [Taiwan Forum on Zhuyin Practicing Software](https://tw.forumosa.com/t/any-typing-software-website-to-practice-zhuyin-fuhao/69998/19) Discussion forum shows there are learners looking to practice Zhuyin, but no mainstream software exists. Also, word that some software exists in Taiwan but is passed down by word of mouth. (Excerpts:
 
@@ -138,7 +152,7 @@ Students and working professionals suffers from a variety of consequences if the
 
   "Yes there is. Go to the nearest public grade school in your place with a friend and ask if they have Chinese Language class for foreign spouses. As part of the language class curriculum, there is one class for typing chinese language. They have a small adobe flash program that can improve how you type zhuyin fuhao.")
 
-- [typing.tw](https://typing.tw/) Typing test website that tells you your typing speed. Made for traditional Chinese characters. Input agnostic. Has time limit. Good for users to practice speed after they learn how to type correctly.
+- [typing.tw](https://typing.tw/) Typing test website that tells you your typing speed. Made for traditional Chinese characters. Input agnostic. Has time limit. Good for users to practice speed after they learn how to type correctly. However, no Zhuyin-specific feedback.
 
 - [Another typing contest site](https://contest.hlc.edu.tw/typing/content_bpmf.asp?lang=1) Has a preset list of phrases for typing practice, and shows the Zhuyin symbols for each word. Site all in Chinese, hard for foreign learners to navigate.
 
@@ -148,7 +162,7 @@ Students and working professionals suffers from a variety of consequences if the
 
 **Character Recognition**
 
-- [Wikipedia: Easily confused Chinese characters](https://en.wiktionary.org/wiki/Appendix:Easily_confused_Chinese_characters) List of different characters that look similar explains what the difference is.
+- [Wikipedia: Easily confused Chinese characters](https://en.wiktionary.org/wiki/Appendix:Easily_confused_Chinese_characters) List of different characters that look similar and explains what the difference is.
 
 - [NiHaoMa Mandarin](https://nihaoma-mandarin.com/pedagogy-corner/similar-chinese-characters/) Article explaining some similar characters and also ways to remember them.
 
@@ -164,7 +178,7 @@ Students and working professionals suffers from a variety of consequences if the
 
 - The above two lists the 214 radicals (parts that make up a character) in Chinese. A character can contain one or more radicals. Different characters can contain the same radicals but in different order. Similar characters are often characters that differ by one radical or contain similar-looking radicals.
 
-- [Wikipedia - Chinese characters](https://en.wikipedia.org/wiki/Chinese_characters) Overview of Chinese characters. There are over 100,000 Chinese characters, combine this data with the 214 radicals above, this explains why certain characters may look similar or evan use almost all the same radicals.
+- [Wikipedia - Chinese characters](https://en.wikipedia.org/wiki/Chinese_characters) Overview of Chinese characters. There are over 100,000 Chinese characters, combine this data with the 214 radicals above, this explains why certain characters may look similar or even use the same radicals.
 
 - [Reddit discussion](https://www.reddit.com/r/ChineseLanguage/comments/f2je0u/they_are_incredibly_similar/) Discussion shows that chinese learners often mistake similar characters for each other.
 
@@ -187,6 +201,8 @@ Students and working professionals suffers from a variety of consequences if the
 - [Productive Day](https://productiveday.com/6-reasons-why-categories-are-disastrous-for-managing-tasks/) Mentions the importance of having all tasks in ONE location.
 
 - [The Categorization of Time and Its Impact on Task Initiation](https://academic.oup.com/jcr/article-abstract/41/3/810/2907541?redirectedFrom=fulltext) Research article that explores the effect of the categorization of time on task initiation. "When the deadline of a task is categorized in a like-the-present category, it triggers the default implemental mind-set and hence results in a greater likelihood of task initiation."
+
+[(jump to top)](#assignment-1)
 
 ## Feature
 
@@ -213,3 +229,5 @@ Students and working professionals suffers from a variety of consequences if the
 - Custom categories: Users can define their own categories for separating their tasks. Allows users to categorize their tasks in a way that works best for them.
 
 - Deadline reminders: Users can set reminders for tasks with deadline, and specify how far before the deadline to send a reminder. This helps user with deadline management.
+
+[(jump to top)](#assignment-1)
