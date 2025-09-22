@@ -25,3 +25,86 @@
 5. **sync** expire  
    **when** ExpiringResource.expireResource () : (resource: shortUrl)  
    **then** UrlShortening.delete (shortUrl)
+
+## Extend
+
+1. **concept** Ownership  
+   **purpose** Manages ownership of a shortURL  
+   **principle** each short URL is associated with exactly one owner  
+   **state**  
+   a set of Owners with  
+   &emsp;a shortURL String  
+   &emsp;a username String
+
+   **action**  
+   assign (shortURL, username):  
+   &emsp;**requires** no ownership exists yet for shortUrl  
+   &emsp;**effects** associates shortUrl with username
+
+   giveAccess (shortURL, username): (accessKey: Boolean)  
+   &emsp;**requires** ownership exists for shortUrl  
+   &emsp;**effects** returns True is username matches that assigned to shortUrl, else False
+
+   ***
+
+   **concept** AnalyticsTracking [shortURL]  
+   **purpose** Tracks analytics for shortened URL  
+   **principle** Counts how many times a shortened url is accessed.
+   **state**  
+   a set of Monitors with  
+   &emsp;a shortURL String  
+   &emsp;a count Number
+
+   **action**  
+   register (shortURL):  
+   &emsp;**requires** shortURL is not already being monitored  
+   &emsp;**effects** adds shortURL to Monitors with count of 0
+
+   recordAccess (shortURL):  
+   &emsp;**requires** shortURL is being monitored  
+   &emsp;**effects** updates count of shortURL to += 1
+
+   view (shortURL, accessAllowed: Boolean): (count)  
+   &emsp;**requires** shortURL is being monitored, accessAllowed is True  
+   &emsp;**effects** return counts associated with shortURL
+
+   ***
+
+2. **sync** register  
+   **when**  
+   Request.shortenUrl (targetUrl, shortUrlBase, username)  
+   NonceGeneration.generate (): (nonce)  
+   **then**  
+   UrlShortening.register (shortUrlSuffix: nonce, shortUrlBase, targetUrl)  
+   Ownership.assign(shortUrl, username)  
+   AnalyticsTracking.register(shortUrl)
+
+   ***
+
+   **sync** access  
+   **when**  
+   Request.lookupUrl (shortUrl, username)  
+   **then**  
+   UrlShortening.lookup (shortUrl): (targetUrl)  
+   AnalyticsTracking.recordAccess (shortUrl)
+
+   ***
+
+   **sync** viewAnalytics  
+   **when**  
+   Request.viewAnalytics (shortUrl, username)  
+   **then**  
+   Ownership.giveAccess (shortUrl, username): (accessKey)  
+   AnalyticsTracking.view (shortUrl, accessAllowed: accessKey)
+
+3.
+
+- Allowing users to choose their own short URLs: Update the URLShortening so that user can choose their suffix, rather than using nonce generation. Would also need to check the the UrlBase + suffix does not already exist.
+
+- Using the “word as nonce” strategy to generate more memorable short URLs: Implementation briefly explained in Concept Question 3 (confused why this is being asked again?)
+
+- Including the target URL in analytics, so that lookups of different short URLs can be grouped together when they refer to the same target URL: Update AnalyticsTracking to switch from shortURL to targetURL in the state. Update the sync so that we pass in the targetUrl when calling AnalyticsTracking.
+
+- Generate short URLs that are not easily guessed: feature not useful. URLs are in the public domain, and not a private password that needs to be secure. Additionally, if URLs are short, the possibility of using brute force to guess the URL is much higher than a longer URL.
+
+- Supporting reporting of analytics to creators of short URLs who have not registered as user: The current implementation doesn't require registration. The analytics is attached to a username (or name) that is attached to the shortURL. So as long as creators remember the name they used when creating, they can view the analytics.
