@@ -19,4 +19,5 @@ Here is an online photo of my favorite city, Taipei:
 # Table of Contents
 
 [Link to Assignment 1](assignments/assignment1.md)  
-[Link to PSET 1](psets/pset1.md)
+[Link to PSET 1](psets/pset1.md)  
+[Link to PSET 2](psets/pset2.md)
