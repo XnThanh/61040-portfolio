@@ -188,7 +188,7 @@ DefaultLanguage is the default language of the app, in which directions, descrip
 
 ## UI Sketches
 
-![low-fi sketch of ZHYN app](..\assets\low-fi-sketch.jpg)
+![low-fi sketch of ZHYN app](../assets/low-fi-sketch.jpg)
 
 ## User Journey
 
