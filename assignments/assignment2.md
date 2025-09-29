@@ -173,3 +173,44 @@ readySection (Section)
 for every Character in sentence:  
 &emsp; Database.getAnswer(Character): (ZhuyinRep)  
 &emsp; Quiz.register(Character, ZhuyinRep)
+
+## A Brief Note
+
+The Database concept manages Chinese characters, their Zhuyin representations and generates the appropriate sentences for users to type. Each character in these sentences are treated as a "question" under the Quiz concept, which will track the metrics associated with that question. The DisplayLanguage concept supports the adaptive immersion feature by managing the translations of each section and maintaining the appropriate invariants.
+
+### A brief note on generic types:
+
+Character is a logograph, a single written character in Chinese language. Examples: `日`, `月`, `山`, `水`
+
+ZhuyinRep is the series of Zhuyin symbols corresponding to a Chinese character. For example, `水`, the Chinese character for `water`, will have the ZhuyinRep `ㄕㄨㄟˇ` (series of 4 symbols, represented as a single ZhuyinRep String)
+
+DefaultLanguage is the default language of the app, in which directions, descriptions, and other text will be written in. This is so that there is at minimum one language to be displayed if other language options are not yet implemented. This DefaultLanguage will most likely be English.
+
+## UI Sketches
+
+![low-fi sketch of ZHYN app](..\assets\low-fi-sketch.jpg)
+
+## User Journey
+
+**Problem**: User is an advanced Mandarin foreign language learner. User learned Mandarin in the States but is now studying at a Mandarin Training Center in Taiwan. User would like to switch to using Zhuyin input method, as it is the standard in Taiwan.
+
+**Context**: User is not used to typing Zhuyin, they take a long time to type each word. The user wants to improve speed through typing practice.
+
+**Goal**: The user wants practice typing Zhuyin and receive immediate feedback on whether they typed correctly or not.
+
+**Specific actions**:
+
+Action 1: User selects "advance" level
+
+- User is brought to Main Typing Page.
+- Timer starts for 1 minute
+
+Action 2: User starts typing the characters they see on screen
+
+- User receives feedback when they type incorrectly (character is highlighted red)
+
+Action 3: Timer runs out
+
+- User is brought to Results Page, telling them their speed, accuracy, and a list of inccorectly types characters, and what the correct Zhuyn representation is
+
+**Outcome**: User was able to practice typing Chinese characters suitable to their level, and receives feedback and metrics on their typing performance. User can repeat this typing practice to drill their typing skills.
