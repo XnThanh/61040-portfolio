@@ -22,4 +22,4 @@ Here is an online photo of my favorite city, Taipei:
 [Link to PSET 1](psets/pset1.md)  
 [Link to PSET 2](psets/pset2.md)  
 [Link to Assignment 2](assignments/assignment2.md)  
-[Link to Assignment 3](assignments/assignment3/assignment3.md)
+[Link to Assignment 3](assignments/assignment3.md)
